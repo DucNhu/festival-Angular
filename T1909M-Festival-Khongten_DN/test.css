@@ -1,0 +1,9 @@
+.test {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    overflow: visible;
+}

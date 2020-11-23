@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/home_page.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/header-mobile.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="fonts/font.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid header">
+      <!--icon web  -->
+      <div class="logo">
+        <a href="Home_NotLogin.html" class="header__logo">
+          <span class="logo_char-f">F</span>
+          <span class="logo_char-e">e</span>
+          <span class="logo_char-s">s</span>
+          <span class="logo_char-t">t</span>
+          <span class="logo_char-i">i</span>
+          <span class="logo_char-v">v</span>
+          <span class="logo_char-a">a</span>
+          <span class="logo_char-l">l</span>
+        </a>
+      </div>
+      <!-- Menu-mobile -->
+      <div class="bars-box">
+        <button class="button">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <!-- Menu -->
+      <ul class="header__list-menu none">
+        <li class="menu__items"><a href="Home_NotLogin.html">Home page</a></li>
+
+        <li class="menu__items">Theme
+          <i class="fas fa-angle-down dow1" aria-hidden="true"></i>
+          <div class="box-sub__menu w-100">
+            <div class="sub-box__img">
+              <img src="images/winter2.jpg" alt="">
+            </div>
+
+            <div class="box-list-fes bg-white p-2">
+              <!-- Outside -->
+              <div class="box-outside">
+                <h2>Out Side</h2>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="outside.html">
+                      Side
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Sport
+                    </a>
+                  </li>
+                  <li>
+                    <a href="Music.html">
+                      Music
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">Seasonal</a>
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    <ul class="sub-menu__menu">
+                      <li><a href="spring.html">Spring</a></li>
+                      <li><a href="summer.html">Summer</a></li>
+                      <li><a href="#">Fall</a></li>
+                      <li><a href="winter.html">Winter</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="food.html">
+                      Food
+                    </a>
+                  </li>
+                  <li>
+                    <a href="light.html">
+                      Light
+                    </a>
+                  </li>
+                  <li>
+                    <a href="firework.html">
+                      Fireworks
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="flower.html">
+                      Flower
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- In Home -->
+              <div class="box-inHome">
+                <h2>In Home</h2>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="Techlology.html">
+                      Technology
+                    </a>
+                  </li>
+                  <li>
+                    <a href="TempleHuong.html">
+                      Ancient
+                    </a>
+                  </li>
+
+
+                  <li>
+                    <a href="fashion.html">
+                      Fashion
+                    </a>
+                  </li>
+
+
+
+                  <li>
+                    <a href="Art.html">
+                      Art
+                    </a>
+                  </li>
+                  <li>
+                    By date
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    <ul class="sub-menu__menu">
+                      <li><a href="Noel.html">Noel</a></li>
+                      <li><a href="helloween.html">Helloween</a></li>
+                      <li><a href="#">Women's Day</a></li>
+                      <li><a href="#">Mother's Day</a></li>
+                      <li><a href="#">Valentine</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu__items"><a href="Home_Buy_Books.html">Book</a></li>
+
+        <li class="menu__items"><a href="about.html">About</a></li>
+
+        <!-- <li class="menu__items"><a>Contact</a>
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+            <ul class="sub-menu">
+              <li>
+                <a href="https://www.facebook.com/messages/t/111410163772664">Facebook</a>
+                  <i class="fab fa-facebook-messenger mr-1"></i>
+              </li>
+              <li>
+                <a href="https://mail.google.com/mail/u/0/?hl=vi#inbox?compose=DmwnWtDwhRLJXBNrQxBhMFtpZwLPRHprCMWvQTKjfldZMVqCkQlkmgmCBwTHLhPFJCxxFsWLskjV">Gmail</a>
+                  <i class="far fa-envelope mr-1"></i>
+              </li>
+            </ul>
+          </li> -->
+
+        <li class="menu__items"><a>Accout</a>
+          <i class="fas fa-angle-down"></i>
+          <!-- <ul class="sub-menu">
+            <li>
+              <a href="Login.html">LogIn</a>
+              <i class="fas fa-sign-in-alt ml-2"></i>
+            </li>
+            <li><a href="signup.html">SignUp</a>
+              <i class="fas fa-user-plus ml-2"></i>
+            </li>
+          </ul> -->
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/rio1.jpg"></div>
+      <div class="swiper-slide"><img src="images/B.H.valenteen1.jpg"></div>
+      <div class="swiper-slide"><img src="images/winter1.jpg"></div>
+      <div class="swiper-slide"><img src="images/santa.jpg"></div>
+      <div class="swiper-slide"><img src="images/b.1flower.jpg"></div>
+      <div class="swiper-slide"><img src="images/Cook2.jpg"></div>
+      <div class="swiper-slide"><img src="images/backgr_mwc_2019.png"></div>
+      <div class="swiper-slide"><img src="images/b.music2.jpg"></div>
+      <div class="swiper-slide"><img src="images/EDM3.jpg"></div>
+      <div class="swiper-slide"><img src="images/fsh1.jpg"></div>
+    </div>
+    <div class="banner-img"></div>
+  </div>
+  <!-- Thân trang web -->
+  <main class="container">
+    <!-- <div class="container" > -->
+    <div class="row">
+      <!--FESTIVALS -->
+      <div class="col-md-6 col-sm-12 pt-3 text-center">
+        <!-- <div class="col-md-8" style="flex-direction: column; float:left;"> -->
+        <h1 class="fes-title far star-dow position-relative">
+          <sub><i class="far fa-star"></i></sub> MOST POPULAR FESTIVALS <sub><i class="far fa-star"></i></sub>
+        </h1>
+
+        <article class="frame">
+          <a href="rio.html">
+            <div class="frame_img">
+              <img src="images/out_side1.jpg" />
+            </div>
+            <ul class="frame__list-title">
+              <!-- Name fes -->
+              <li>Hot air balloon festival</li>
+              <!-- address fes -->
+              <li>SUN 'n FUN Expo Campus</li>
+              <!-- Time -->
+              <li class="tab-size">28/02/2020 ~ 01/03/2020</li>
+            </ul>
+          </a>
+        </article>
+
+        <!-- Fes2 -->
+        <article class="frame">
+          <a href="rio.html">
+            <div class="frame_img">
+              <img src="images/out_side1.jpg" />
+            </div>
+            <ul class="frame__list-title">
+              <!-- Name fes -->
+              <li>Hot air balloon festival</li>
+              <!-- address fes -->
+              <li>SUN 'n FUN Expo Campus</li>
+              <!-- Time -->
+              <li class="tab-size">28/02/2020 ~ 01/03/2020</li>
+            </ul>
+          </a>
+        </article>
+
+        <!-- Fes3 -->
+        <article class="frame">
+          <a href="rio.html">
+            <div class="frame_img">
+              <img src="images/out_side1.jpg" />
+            </div>
+            <ul class="frame__list-title">
+              <!-- Name fes -->
+              <li>Hot air balloon festival</li>
+              <!-- address fes -->
+              <li>SUN 'n FUN Expo Campus</li>
+              <!-- Time -->
+              <li class="tab-size">28/02/2020 ~ 01/03/2020</li>
+            </ul>
+          </a>
+        </article>
+
+        <!-- Fes4 -->
+        <article class="frame">
+          <a href="rio.html">
+            <div class="frame_img">
+              <img src="images/out_side1.jpg" />
+            </div>
+            <ul class="frame__list-title">
+              <!-- Name fes -->
+              <li>Hot air balloon festival</li>
+              <!-- address fes -->
+              <li>SUN 'n FUN Expo Campus</li>
+              <!-- Time -->
+              <li class="tab-size">28/02/2020 ~ 01/03/2020</li>
+            </ul>
+          </a>
+        </article>
+
+        <!-- Fes5 -->
+        <article class="frame">
+          <a href="rio.html">
+            <div class="frame_img">
+              <img src="images/out_side1.jpg" />
+            </div>
+            <ul class="frame__list-title">
+              <!-- Name fes -->
+              <li>Hot air balloon festival</li>
+              <!-- address fes -->
+              <li>SUN 'n FUN Expo Campus</li>
+              <!-- Time -->
+              <li class="tab-size">28/02/2020 ~ 01/03/2020</li>
+            </ul>
+          </a>
+        </article>
+
+        <!-- Fes6 -->
+        <article class="frame">
+          <a href="rio.html">
+            <div class="frame_img">
+              <img src="images/out_side1.jpg" />
+            </div>
+            <ul class="frame__list-title">
+              <!-- Name fes -->
+              <li>Hot air balloon festival</li>
+              <!-- address fes -->
+              <li>SUN 'n FUN Expo Campus</li>
+              <!-- Time -->
+              <li class="tab-size">28/02/2020 ~ 01/03/2020</li>
+            </ul>
+          </a>
+        </article>
+
+        <!--THE BEST Book-->
+        <!-- <p class="text-left"><h1 style="border: none">THE BEST FESTIVALS</h1></p>
+        <p>
+            <div class="col-md-12">
+              <a class="carousel-control-prev float-right" href="#carouselExampleIntervalcenterBk" role="button" data-slide="prev" style="margin-left:80%;margin-top:-30px">
+                <span aria-hidden="true"><h4><i class="fas fa-angle-left"></i></h4></span>
+              </a>
+              <a class="carousel-control-next float-right" href="#carouselExampleIntervalcenterBk" role="button" data-slide="next" style="margin-right:-5%;margin-top:-30px">
+                <span aria-hidden="true"><h4><i class="fas fa-angle-right"></i></h4></span>
+              </a>
+          </div>
+        </p>
+          <div id="carouselExampleIntervalcenterBk" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item  row" data-interval="2000" >
+                 <a href="helloween.html">
+                  <div class="col-md-12">
+                        <img src="images/hlw1.jpg" class="img-fluid">
+                  </div>
+                      <div class="col-md-12">
+                        Halloween festival has the original name of "All Hallows’Eve"...
+                      </div>
+                  </a>
+              </div>
+              <div class="carousel-item active row" data-interval="2000" >
+                 <a href="Noel.html">
+                  <div class="col-md-12">
+                        <img src="images/noel1.jpg" class="img-fluid">
+                  </div>
+                      <div class="col-md-12">
+                        Christmas is celebrated on December 25 and is both a sacred ...
+                      </div>
+                  </a>
+              </div>
+              <div class="carousel-item row" data-interval="2000" >
+                 <a href="Technology_MWC_2019.html">
+                  <div class="col-md-12">
+                        <img src="images/mwc2019.jpg" class="img-fluid">
+                  </div>
+                      <div class="col-md-12">
+                        MWC - Barcelona is an annual exhibition organized by GSMA...
+                      </div>
+                  </a>
+              </div>
+              <div class="carousel-item row" data-interval="2000" >
+                 <a href="food.html">
+                  <div class="col-md-12">
+                        <img src="images/Cook.jpg" class="img-fluid">
+                  </div>
+                      <div class="col-md-12">
+                          This one is amazing. At Eastertime we British are dreaming ...
+                      </div>
+                  </a>
+              </div>
+              <div class="carousel-item row" data-interval="2000" >
+                 <a href="firework.html">
+                  <div class="col-md-12">
+                        <img src="images/fwk1.jpg" class="img-fluid">
+                  </div>
+                      <div class="col-md-12">
+                        Originally used to ward off evil spirits, fireworks (花火, Hanabi)...
+                      </div>
+                  </a>
+              </div>
+              <div class="carousel-item row" data-interval="2000" >
+                 <a href="flower.html">
+                  <div class="col-md-12">
+                        <img src="images/flw1.jpg">
+                  </div>
+                      <div class="col-md-12">
+                        The Flower Festival Parade, held since 1979, is one of the most striking...
+                      </div>
+                  </a>
+              </div>
+              <div class="carousel-item row" data-interval="2000" >
+                 <a href="Art.html">
+                  <div class="col-md-12">
+                        <img src="images/art1.jpg">
+                  </div>
+                      <div class="col-md-12">
+                      Join us for a taste of all the great things coming to the West...
+                      </div>
+                  </a>
+              </div>
+
+            </div>
+
+        </div> -->
+      </div>
+      <!--Festival list-->
+      <div class="col-md-4 col-sm-12 list-fes-smll pt-3 text-center">
+        <!-- Title -->
+        <h1 class="fes-title far star-dow position-relative">
+          <sub><i class="far fa-star"></i></sub> Festival list <sub><i class="far fa-star"></i></sub>
+        </h1>
+
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame2 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame3 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame4 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame5 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame6 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame7 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame8 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+        <!-- frame9 -->
+        <article class="frame">
+          <a href="light.html">
+            <img src="images/light1.jpg">
+            ARTWORK SPOTLIGHT<br>
+            28/ 11/ 2019 - 19/ 1/ 2020<br>
+          </a>
+        </article>
+
+      </div>
+      <!-- Media /List by Tag-->
+      <div class=" col-md-2 col-sm-12 pt-3 text-center">
+        <!-- Media -->
+        <h1 class="fes-title far star-dow position-relative">
+          <sub><i class="far fa-star"></i></sub> Media <sub><i class="far fa-star"></i></sub>
+        </h1>
+
+
+        <ul class="media">
+          <li>
+            <a href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-google-plus-square"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-skype"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-yahoo"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-vine"></i></a>
+          </li>
+          <!-- <li></li> -->
+        </ul>
+
+
+        <!-- List -->
+        <h1>Festivals by Tag</h1>
+
+
+        <ul class="list-fes-right">
+          <li><a href="Music.html">Music</a></li>
+          <li><a href="Techlology.html">Technology</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="light.html">Light</a></li>
+          <li><a href="TempleHuong.html">ancient</a></li>
+          <li><a href="outside.html">Out Side</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="fashion.html">Fashion</a></li>
+          <li><a href="Art.html">Art</a></li>
+          <li><a href="#">Valentine</a></li>
+          <li><a href="#">HalloWeen</a></li>
+          <li><a href="flower.html">Flower</a></li>
+          <li><a href="spring.html">Spring</a></li>
+          <li><a href="summer.html">Summer</a></li>
+          <li><a href="#">Fall</a></li>
+          <li><a href="winter.html">Winter</a></li>
+          <li><a href="firework.html">Fireworks</a></li>
+          <li><a href="rio.html">Rio Carnival</a></li>
+        </ul>
+
+
+
+
+      </div>
+      <!--  -->
+    </div>
+    <!-- </div> -->
+  </main>
+
+
+  <!-- End -->
+  <footer>
+
+  </footer>
+  <div style="text-align: center;color:white;background: black; width:100%; line-height: 30px">
+    2020 &copy All Rights Reserved
+  </div>
+  <!-- Click > Header -->
+  <div class="Clk">
+    <a href="#">
+      <i class="fas fa-arrow-circle-up"></i>
+    </a>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Script #page__title -->
+  <script src="js/home.js"></script>
+  <!-- NAV -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      centeredSlides: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+  <!-- END -->
+  <script>
+    $(document).ready(function () {
+      $(".fa-bars").click(function () {
+        $(".none").show();
+        $(".fa-times").show();
+        $(".fa-bars").hide();
+
+      });
+      // none:
+      $(".fa-times").click(function () {
+        $(".header__list-menu").hide();
+        $(".fa-times").hide();
+        $(".fa-bars").show();
+
+      });
+    });
+  </script>
+  <!-- Clk > header -->
+  <script>
+    //Get the button
+    var mybutton = document.getElementsByClassName("Clk");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
